@@ -1,0 +1,43 @@
+2023-05-22 15:49:20,655 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 15:50:23,610 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 15:57:49,560 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 15:58:54,432 - INFO - billing_services.py:17 - view_all_items - services:view_all_items
+2023-05-22 15:58:54,438 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 15:58:54,494 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-22 17:34:21,463 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 17:34:39,471 - INFO - billing_services.py:17 - view_all_items - services:view_all_items
+2023-05-22 17:34:39,474 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 17:34:39,475 - ERROR - billing_handler.py:27 - read_data - Exception in read_data: 'MongoCollectionBaseClass' object has no attribute 'find_one'
+2023-05-22 17:49:22,665 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 17:49:36,419 - INFO - billing_services.py:17 - view_all_items - services:view_all_items
+2023-05-22 17:49:36,422 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 17:49:36,423 - ERROR - billing_handler.py:27 - read_data - Exception in read_data: 'MongoCollectionBaseClass' object has no attribute 'find_one'
+2023-05-22 17:50:33,643 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 17:50:51,111 - INFO - billing_services.py:17 - view_all_items - services:view_all_items
+2023-05-22 17:50:51,116 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 17:50:51,116 - ERROR - billing_handler.py:27 - read_data - Exception in read_data: 'MongoCollectionBaseClass' object has no attribute 'find_one'
+2023-05-22 17:52:55,081 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 17:53:17,211 - INFO - billing_services.py:17 - view_all_items - services:view_all_items
+2023-05-22 17:53:17,215 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 17:53:17,215 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-22 18:05:17,196 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 18:05:30,356 - INFO - billing_services.py:17 - view_all_items - services:view_all_items
+2023-05-22 18:05:30,363 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 18:05:30,363 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-22 18:17:19,814 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 18:17:33,745 - INFO - billing_services.py:17 - view_all_items - services:view_all_items
+2023-05-22 18:17:33,749 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 18:17:33,749 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-22 18:26:22,134 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 18:52:24,420 - INFO - main.py:18 - <module> - main: main file started
+2023-05-22 18:52:53,441 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 18:52:53,442 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-22 18:52:53,534 - INFO - billing_services.py:68 - send_item - services:send_item
+2023-05-22 18:52:53,538 - INFO - billing_handler.py:69 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-22 18:52:53,538 - INFO - mongo_query.py:69 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-22 18:52:53,612 - INFO - Email_handlers.py:25 - send_email - Handlers:send_email
+2023-05-22 18:52:57,230 - INFO - Email_handlers.py:33 - send_email - send_email:Email sent successfully
+2023-05-22 18:52:57,231 - INFO - billing_services.py:74 - send_item - send_item: Email Sent
+2023-05-22 18:53:44,503 - INFO - billing_services.py:18 - view_all_items - services:view_all_items
+2023-05-22 18:53:44,504 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-22 18:53:44,505 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
