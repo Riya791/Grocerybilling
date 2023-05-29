@@ -20,6 +20,7 @@ class Billing_ServicesException:
     EX0010 = "Exception in delete_item: {error}"
     EX0011 = "Exception in send_item: {error}"
     EX0012 = "Exception in get_billing: {error}"
+    EX0021 = "Exception in get_report: {error}"
 
 
 class Mongo_queryException:
@@ -28,3 +29,7 @@ class Mongo_queryException:
     EX0017 = "Exception in update_item: {error}"
     EX0018 = "Exception in delete_item: {error}"
     EX0019 = "Exception in pipeline_aggregation: {error}"
+
+
+class Excel_billingException:
+    EX0020 = "Exception in excel_billing: {error}"

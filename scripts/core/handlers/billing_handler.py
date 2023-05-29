@@ -63,13 +63,23 @@ class ItemHandler:
             logger.error(Billing_HandlerException.EX004.format(error=str(e)))
             return {"message": "failed"}
 
-    def pipeline_aggregation(self):
+    @staticmethod
+    def pipeline_aggregation():
         """function for aggregation"""
 
+        global data, aggregated_data
         try:
             logger.info("Handler:pipeline_aggregation")
             data = pipeline_aggregation(Aggregation.Agr)
-            logger.info("pipeline_aggregation: ", data)
+            aggregated_data = []  # New list to store aggregated data
+            overall_sum = 'total_amount'
+            column_sum = sum(row[overall_sum] for row in data)
+            aggregated_sum = {'overall_sum': column_sum}
+            aggregated_data.append(aggregated_sum)
+            logger.info("pipeline_aggregation: ", aggregated_data)
         except Exception as e:
             logger.error(Billing_HandlerException.EX005.format(error=str(e)))
-        return list(data)[0]['total']
+            return {"Item Details": aggregated_data}
+
+    def get_data(self):
+        pass

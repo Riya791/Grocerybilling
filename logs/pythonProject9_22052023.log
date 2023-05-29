@@ -41,3 +41,158 @@
 2023-05-22 18:53:44,503 - INFO - billing_services.py:18 - view_all_items - services:view_all_items
 2023-05-22 18:53:44,504 - INFO - billing_handler.py:21 - read_data - Handler:read_data
 2023-05-22 18:53:44,505 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 12:01:43,087 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 12:02:02,344 - INFO - billing_services.py:18 - view_all_items - services:view_all_items
+2023-05-23 12:02:02,383 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-23 12:02:02,384 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 12:02:36,360 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-23 12:02:36,361 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 12:02:36,411 - INFO - billing_services.py:68 - send_item - services:send_item
+2023-05-23 12:02:36,412 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-23 12:02:36,412 - INFO - mongo_query.py:69 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-23 12:02:36,445 - INFO - email_handlers.py:25 - send_email - Handlers:send_email
+2023-05-23 12:02:39,282 - INFO - email_handlers.py:33 - send_email - send_email:Email sent successfully
+2023-05-23 12:02:39,283 - INFO - billing_services.py:74 - send_item - send_item: Email Sent
+2023-05-23 12:21:57,498 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 12:22:38,355 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-23 12:22:38,355 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 12:22:38,531 - INFO - billing_services.py:68 - send_item - services:send_item
+2023-05-23 12:22:38,533 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-23 12:22:38,534 - INFO - mongo_query.py:69 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-23 12:22:38,645 - INFO - email_handlers.py:25 - send_email - Handlers:send_email
+2023-05-23 12:22:41,485 - INFO - email_handlers.py:33 - send_email - send_email:Email sent successfully
+2023-05-23 12:22:41,486 - INFO - billing_services.py:74 - send_item - send_item: Email Sent
+2023-05-23 12:42:21,299 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 12:42:46,402 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 12:43:04,003 - INFO - billing_services.py:18 - view_all_items - services:view_all_items
+2023-05-23 12:43:04,010 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-23 12:43:04,010 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 12:45:14,202 - INFO - billing_services.py:30 - create_item - services:create_item
+2023-05-23 12:45:14,203 - INFO - billing_handler.py:33 - create_data - Handler:create_data
+2023-05-23 12:45:14,311 - INFO - billing_handler.py:36 - create_data - create_data:record created successfully
+2023-05-23 12:57:27,227 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-23 12:57:27,227 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 12:57:27,341 - INFO - billing_services.py:68 - send_item - services:send_item
+2023-05-23 12:57:27,345 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-23 12:57:27,345 - INFO - mongo_query.py:69 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-23 12:57:27,431 - INFO - email_handlers.py:25 - send_email - Handlers:send_email
+2023-05-23 12:57:31,498 - INFO - email_handlers.py:33 - send_email - send_email:Email sent successfully
+2023-05-23 12:57:31,498 - INFO - billing_services.py:74 - send_item - send_item: Email Sent
+2023-05-23 12:59:06,030 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-23 12:59:06,030 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 12:59:06,095 - INFO - billing_services.py:68 - send_item - services:send_item
+2023-05-23 12:59:06,097 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-23 12:59:06,097 - INFO - mongo_query.py:69 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-23 12:59:06,109 - INFO - email_handlers.py:25 - send_email - Handlers:send_email
+2023-05-23 12:59:10,389 - INFO - email_handlers.py:33 - send_email - send_email:Email sent successfully
+2023-05-23 12:59:10,390 - INFO - billing_services.py:74 - send_item - send_item: Email Sent
+2023-05-23 13:03:34,793 - INFO - billing_services.py:85 - get_billing - services:get_billing
+2023-05-23 13:03:34,795 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-23 13:03:34,796 - INFO - mongo_query.py:69 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-23 13:44:58,979 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 13:45:37,377 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-23 13:45:37,379 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 13:45:37,425 - INFO - billing_services.py:68 - send_item - services:send_item
+2023-05-23 13:45:37,427 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-23 13:45:37,427 - INFO - mongo_query.py:69 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-23 13:45:37,476 - INFO - email_handlers.py:25 - send_email - Handlers:send_email
+2023-05-23 13:45:40,580 - INFO - email_handlers.py:33 - send_email - send_email:Email sent successfully
+2023-05-23 13:45:40,580 - INFO - billing_services.py:74 - send_item - send_item: Email Sent
+2023-05-23 13:46:11,413 - INFO - billing_services.py:18 - view_all_items - services:view_all_items
+2023-05-23 13:46:11,414 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-23 13:46:11,414 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-23 16:28:41,164 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 17:38:09,412 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 17:39:59,662 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 17:42:04,838 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 18:00:00,134 - INFO - main.py:18 - <module> - main: main file started
+2023-05-23 18:10:06,460 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 14:00:44,338 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 14:37:06,610 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 15:58:51,159 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 16:26:36,655 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 16:26:56,213 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 16:26:56,270 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-24 16:26:56,270 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-24 16:31:45,170 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 16:32:06,455 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 16:32:06,463 - ERROR - billing_services.py:104 - get_report - Exception in get_report: name 'item' is not defined
+2023-05-24 16:39:08,386 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 16:39:37,261 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 16:44:00,694 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 16:44:18,571 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 16:54:12,879 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 16:55:42,041 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 16:56:46,713 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 16:57:09,623 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 17:10:55,234 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 17:11:12,366 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 17:13:40,664 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 17:26:19,627 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 17:52:06,704 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 17:52:27,417 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 17:52:51,274 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 18:16:34,697 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 18:16:54,977 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 18:24:10,356 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 18:26:15,995 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 18:28:35,615 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 18:29:26,609 - INFO - main.py:18 - <module> - main: main file started
+2023-05-24 18:30:42,945 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 18:40:35,299 - INFO - billing_services.py:98 - get_report - services:get_report
+2023-05-24 18:49:29,207 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-24 18:49:29,218 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-24 18:49:29,219 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-24 19:01:22,270 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-24 19:01:22,279 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-24 19:01:22,279 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-24 19:02:35,440 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-24 19:02:35,451 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-24 19:02:35,451 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-24 19:05:59,598 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-24 19:05:59,603 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-24 19:05:59,603 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 11:49:22,478 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 11:49:22,544 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-29 11:49:22,545 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 11:50:09,074 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 11:50:27,150 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 11:50:27,156 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-29 11:50:27,156 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 11:56:52,131 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 11:56:52,136 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-29 11:56:52,136 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 11:57:19,322 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 11:57:35,273 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 11:57:35,278 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-29 11:57:35,279 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 12:01:36,089 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 12:02:11,550 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 12:02:11,556 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-29 12:02:11,556 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 12:04:38,058 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-29 12:04:38,059 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-29 12:04:38,127 - INFO - billing_services.py:69 - send_item - services:send_item
+2023-05-29 12:04:38,130 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-29 12:04:38,130 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 12:04:38,159 - INFO - email_handlers.py:25 - send_email - Handlers:send_email
+2023-05-29 12:04:41,727 - INFO - email_handlers.py:33 - send_email - send_email:Email sent successfully
+2023-05-29 12:04:41,727 - INFO - billing_services.py:75 - send_item - send_item: Email Sent
+2023-05-29 12:06:39,566 - INFO - billing_services.py:86 - get_billing - services:get_billing
+2023-05-29 12:06:39,569 - INFO - billing_handler.py:71 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-29 12:06:39,570 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 12:07:00,371 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 12:07:00,373 - INFO - biling_excelreport.py:24 - excel_billing - Handler:excel_billing
+2023-05-29 12:07:00,376 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 12:40:12,622 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 12:40:31,916 - INFO - billing_services.py:86 - get_billing - services:get_billing
+2023-05-29 12:40:31,920 - INFO - billing_handler.py:72 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-29 12:40:31,922 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 12:41:02,703 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 12:41:22,873 - INFO - billing_services.py:86 - get_billing - services:get_billing
+2023-05-29 12:41:22,879 - INFO - billing_handler.py:72 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-29 12:41:22,879 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 12:42:54,879 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 12:43:14,196 - INFO - billing_services.py:86 - get_billing - services:get_billing
+2023-05-29 12:43:14,204 - INFO - billing_handler.py:72 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-29 12:43:14,205 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation

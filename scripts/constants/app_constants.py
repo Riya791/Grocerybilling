@@ -9,6 +9,7 @@ class APis:
     delete_api = '/delete/{items_id}'
     send_email = '/send_email'
     get_api = '/billing-price'
+    get_excel = '/billing_report'
 
 
 class DBConstants:
@@ -19,27 +20,20 @@ class DBConstants:
 
 class Aggregation:
     Agr = [
-        {
-            '$addFields': {
-                'total_amount': {
-                    '$multiply': [
-                        '$quantity', '$cost'
-                    ]
-                }
-            }
-        }, {
-            '$group': {
-                '_id': None,
-                'total': {
-                    '$sum': '$total_amount'
-                }
-            }
-        }, {
-            '$project': {
-                '_id': 0
+    {
+        '$addFields': {
+            'total_amount': {
+                '$multiply': [
+                    '$quantity', '$cost'
+                ]
             }
         }
-    ]
+    }, {
+        '$project': {
+            '_id': 0
+        }
+    }
+]
 
 
 class CommonConstants:

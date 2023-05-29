@@ -11,5 +11,5 @@ class Item(BaseModel):
 
 class Email(BaseModel):
     rec_email: str
-    subject: str
-    body: str
+    # subject: str
+    # body: str

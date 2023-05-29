@@ -5,6 +5,7 @@ from scripts.constants.app_constants import DBConstants
 from scripts.core.schema.model import Item
 from scripts.exceptions.exception_codes import Mongo_queryException
 from scripts.logging.logger import logger
+import xlsxwriter
 
 app = FastAPI()
 client = MongoClient(DBConstants.DB_URI)
@@ -12,7 +13,45 @@ db = client[DBConstants.DB_DATABASE]
 # # Creating document
 billing = db[DBConstants.DB_COLLECTION]
 
-
+# excel = billing.find({})
+# sheet = list(excel)
+#
+#
+#
+# # Create a new Excel file
+# workbook = xlsxwriter.Workbook('reports/billing_report.xlsx')
+# worksheet = workbook.add_worksheet()
+#
+# # Define cell formats
+# bold_format = workbook.add_format({'bold': True})
+# red_format = workbook.add_format({'bg_color': 'red'})
+#
+# # Write headers
+# headers = list(sheet[0].keys())
+# for col, header in enumerate(headers):
+#     worksheet.write(0, col, header, bold_format)
+#
+# # Write bill data to the worksheet
+# for row, data in enumerate(sheet, start=1):
+#     for col, value in enumerate(data):
+#         if col == len(data) - 1:
+#             try:
+#                 if int(value) > 1000:  # Convert value to integer
+#                     worksheet.write(row, col, int(value), red_format)  # Convert value to integer
+#                 else:
+#                     worksheet.write(row, col, value)
+#             except ValueError:
+#                 worksheet.write(row, col, value)  # Handle non-numeric values
+#         else:
+#             worksheet.write(row, col, value)
+#
+# # Auto-fit column widths
+# worksheet.autofilter(0, 0, row, col)
+# for col in range(len(headers)):
+#     worksheet.set_column(col, col, 15)
+#
+# # Close the workbook
+# workbook.close()
 # creating class
 
 
