@@ -1,11 +1,12 @@
 import xlsxwriter
 from fastapi import FastAPI
+from fastapi.responses import FileResponse
 from scripts.constants.app_constants import DBConstants, Aggregation
 from scripts.core.db.mongo.interns_b2_23.Riya.mongo_query import billing
 from scripts.core.handlers.billing_handler import pipeline_aggregation
-from scripts.utility.mongo_utility import MongoCollectionBaseClass, MongoConnect
 from scripts.exceptions.exception_codes import Excel_billingException
 from scripts.logging.logger import logger
+from scripts.utility.mongo_utility import MongoCollectionBaseClass, MongoConnect
 
 app = FastAPI()
 
@@ -20,7 +21,6 @@ class ExcelGeneration:
 
     @staticmethod
     def excel_billing():
-        global row, col
         try:
             logger.info("Handler:excel_billing")
             excel_data = pipeline_aggregation(Aggregation.Agr)
@@ -35,33 +35,24 @@ class ExcelGeneration:
 
             # Define cell formats
             bold_format = workbook.add_format({'bold': True})
-            red_format = workbook.add_format({'bg_color': 'red'})
+            worksheet.set_row(0, None, bold_format)
 
-            # Write headers
-            headers = list(sheet[0].keys())
+            # Auto-adjust column width
+            worksheet.set_column(0, 3, 15)
+
+            # Write column headers
+            headers = ["id", "name", "quantity", "cost"]
             for col, header in enumerate(headers):
-                worksheet.write(0, col, header, bold_format)
+                worksheet.write(0, col, header)
 
-            # Write bill data to the worksheet
-            for row, data in enumerate(sheet, start=1):
-                for col, value in enumerate(data):
-                    if col == len(data) - 1:
-                        try:
-                            if int(value) > 1000:  # Convert value to integer
-                                worksheet.write(row, col, int(value), red_format)  # Convert value to integer
-                            else:
-                                worksheet.write(row, col, value)
-                        except ValueError:
-                            worksheet.write(row, col, value)  # Handle non-numeric values
-                    else:
-                        worksheet.write(row, col, value)
+            # Write data to the worksheet
+            for row, data in enumerate(sheet):
+                worksheet.write(row + 1, 0, data.get("id"))
+                worksheet.write(row + 1, 1, data.get("name"))
+                worksheet.write(row + 1, 2, data.get("quantity"))
+                worksheet.write(row + 1, 3, data.get("cost"))
 
-            # Auto-fit column widths
-            worksheet.autofilter(0, 0, row, col)
-            for col in range(len(headers)):
-                worksheet.set_column(col, col, 15)
-
-            # Close the workbook
             workbook.close()
+            return FileResponse("Report/billing_report.xlsx", filename="billing_report.xlsx")
         except Exception as e:
             logger.error(Excel_billingException.EX0020.format(error=str(e)))

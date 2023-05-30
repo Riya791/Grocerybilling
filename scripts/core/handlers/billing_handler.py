@@ -81,5 +81,4 @@ class ItemHandler:
             logger.error(Billing_HandlerException.EX005.format(error=str(e)))
             return {"Item Details": aggregated_data}
 
-    def get_data(self):
-        pass
+

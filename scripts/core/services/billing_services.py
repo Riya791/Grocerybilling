@@ -1,7 +1,7 @@
 """Importing API Router"""
 from fastapi import APIRouter
 from scripts.core.db.mongo.interns_b2_23.Riya.mongo_query import Item
-from scripts.core.handlers.biling_excelreport import ExcelGeneration
+from scripts.core.handlers.biling_excelreport import *
 from scripts.core.handlers.billing_handler import ItemHandler
 from scripts.core.handlers.email_handlers import send_email, Email
 from scripts.constants.app_constants import APis
@@ -97,10 +97,8 @@ def get_report():
     """Function to get the total billing"""
     try:
         logger.info("services:get_report")
-
         item_object = ExcelGeneration()
         return item_object.excel_billing()
-        
     except Exception as e:
         logger.error(Billing_ServicesException.EX0021.format(error=str(e)))
         return {"message": "failed"}

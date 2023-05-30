@@ -196,3 +196,128 @@
 2023-05-29 12:43:14,196 - INFO - billing_services.py:86 - get_billing - services:get_billing
 2023-05-29 12:43:14,204 - INFO - billing_handler.py:72 - pipeline_aggregation - Handler:pipeline_aggregation
 2023-05-29 12:43:14,205 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:19:22,705 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:19:35,114 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:20:38,005 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:20:38,106 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:20:38,107 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:22:10,058 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:23:41,339 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:24:57,533 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:26:07,495 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:26:07,505 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:26:07,507 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:29:51,240 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:30:22,585 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:30:22,591 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:30:22,592 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:36:30,694 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:36:56,214 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:36:56,220 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:36:56,221 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:38:06,276 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:38:17,149 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:38:17,157 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:38:17,157 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:39:13,427 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:39:30,737 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:39:30,746 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:39:30,747 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:41:41,058 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:41:52,303 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:41:52,309 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:41:52,311 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:46:02,884 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:46:21,295 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:46:21,299 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:46:21,300 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:46:21,340 - ERROR - biling_excelreport.py:73 - excel_billing - Exception in excel_billing: object of type 'CommandCursor' has no len()
+2023-05-29 18:48:48,604 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:48:57,911 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:48:57,917 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:48:57,917 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-29 18:54:02,815 - INFO - main.py:18 - <module> - main: main file started
+2023-05-29 18:54:13,845 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-29 18:54:13,853 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-29 18:54:13,853 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 09:40:04,377 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 09:40:26,149 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 09:40:26,159 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 09:40:26,159 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 09:53:08,648 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 09:53:19,616 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 09:53:19,623 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 09:53:19,624 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 09:56:48,249 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 09:56:58,604 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 09:56:58,608 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 09:56:58,609 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 10:00:13,957 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 10:00:24,562 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 10:00:24,568 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 10:00:24,571 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 10:01:11,719 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 10:01:11,722 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 10:01:11,723 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 10:02:52,136 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 10:03:04,438 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 10:03:04,449 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 10:03:04,449 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 10:52:14,964 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 10:52:33,157 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 10:52:33,163 - INFO - biling_excelreport.py:26 - excel_billing - Handler:excel_billing
+2023-05-30 10:52:33,163 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 10:52:33,218 - ERROR - biling_excelreport.py:82 - excel_billing - Exception in excel_billing: Unsupported type <class 'bson.objectid.ObjectId'> in write()
+2023-05-30 11:04:51,208 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 11:05:11,605 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 11:05:11,610 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 11:05:11,611 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 11:10:05,728 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 11:10:05,736 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 11:10:05,736 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 11:10:20,563 - INFO - billing_services.py:86 - get_billing - services:get_billing
+2023-05-30 11:10:20,566 - INFO - billing_handler.py:72 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-30 11:10:20,567 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 11:10:51,437 - INFO - billing_handler.py:21 - read_data - Handler:read_data
+2023-05-30 11:10:51,438 - INFO - billing_handler.py:24 - read_data - read_data:Record Found
+2023-05-30 11:10:51,528 - INFO - billing_services.py:69 - send_item - services:send_item
+2023-05-30 11:10:51,530 - INFO - billing_handler.py:72 - pipeline_aggregation - Handler:pipeline_aggregation
+2023-05-30 11:10:51,530 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 11:10:51,547 - INFO - email_handlers.py:25 - send_email - Handlers:send_email
+2023-05-30 11:10:52,978 - ERROR - email_handlers.py:36 - send_email - Exception in send_email: 'NoneType' object has no attribute 'encode'
+2023-05-30 11:10:52,979 - INFO - billing_services.py:75 - send_item - send_item: Email Sent
+2023-05-30 11:21:01,185 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 11:21:21,918 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 11:21:21,922 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 11:21:21,923 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 11:23:23,614 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 11:23:23,619 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 11:23:23,620 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 11:23:30,383 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 11:23:30,385 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 11:23:30,385 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 11:34:26,427 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 11:34:43,068 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 11:34:43,076 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 11:34:43,076 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 11:34:43,167 - ERROR - biling_excelreport.py:52 - excel_billing - Exception in excel_billing: 'CommandCursor' object is not subscriptable
+2023-05-30 12:53:14,992 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 12:53:37,745 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 12:53:37,788 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 12:53:37,789 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 12:55:07,226 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 12:55:23,315 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 12:55:23,324 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 12:55:23,324 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 13:04:17,208 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 13:04:38,747 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 13:04:38,753 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 13:04:38,753 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 14:00:54,710 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 14:01:12,928 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 14:01:12,986 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 14:01:12,987 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation
+2023-05-30 14:01:56,044 - INFO - main.py:18 - <module> - main: main file started
+2023-05-30 14:02:12,817 - INFO - billing_services.py:99 - get_report - services:get_report
+2023-05-30 14:02:12,822 - INFO - biling_excelreport.py:25 - excel_billing - Handler:excel_billing
+2023-05-30 14:02:12,824 - INFO - mongo_query.py:108 - pipeline_aggregation - mongo_query:pipeline_aggregation

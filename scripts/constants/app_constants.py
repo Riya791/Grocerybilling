@@ -20,20 +20,20 @@ class DBConstants:
 
 class Aggregation:
     Agr = [
-    {
-        '$addFields': {
-            'total_amount': {
-                '$multiply': [
-                    '$quantity', '$cost'
-                ]
+        {
+            '$addFields': {
+                'total_amount': {
+                    '$multiply': [
+                        '$quantity', '$cost'
+                    ]
+                }
+            }
+        }, {
+            '$project': {
+                '_id': 0
             }
         }
-    }, {
-        '$project': {
-            '_id': 0
-        }
-    }
-]
+    ]
 
 
 class CommonConstants:
